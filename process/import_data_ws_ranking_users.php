@@ -10,7 +10,7 @@ $mysqli = new Database();
 try{
 	$cncta = TiberiumAlliances::getInstance();
 	// login into Game and get a sessionId
-	$cncta->login("sirio3mil@gmail.com", "Anteojo08");
+	$cncta->login("********************", "**************");
 	// start a game session
 	$cncta->openGameSession();
 	// get start point
